@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Shop</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,700;1,700&family=Roboto+Condensed:wght@600&family=Tinos:ital,wght@0,400;0,700;1,700&display=swap" rel="stylesheet">
+    <style>
+
+        * {
+            margin:0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body {
+            font-family: 'Roboto Condensed', sans-serif;
+            font-weight: 400;
+            color: var(--tg-theme-text-color);
+            background: var(--tg-theme-bg-color);
+        }
+
+        #main {
+            width: 100%;
+            padding: 20px;
+            text-align: center;
+        }
+
+        h1 {
+            margin-top: 0px;
+            margin-bottom: 0px;
+        }
+        
+        #price {
+            position: relative;
+            text-align: center;
+            margin-bottom: 30px;
+        }
+
+        #three {
+            left: 100px;
+        }
+
+        div {
+            margin-bottom: 0px;
+        }
+
+        img {
+            position: relative;
+            width: 90px;
+            height: 90px;
+            margin-top: 0px;
+            /* left: 45%; */
+            text-align: center;
+            margin-bottom: 0px;
+        }
+
+        p {
+            width: 350px;
+            margin: 0 auto;
+        }
+
+        #image {
+            width: 18px;
+            height: 18px;
+            margin-left: 5px;
+            margin-right: 5px;
+            background: var(--tg-theme-secondary-bg-color);
+            margin-bottom: 10px;
+        }
+            
+        #button {
+            box-sizing: content-box;
+            background: var(--tg-theme-secondary-bg-color);
+            padding-left: 2px;
+            padding-right: 2px;
+            margin-bottom: 5px;
+        }
+
+        #buy {
+            position: relative;
+            border: 0px;
+            border-radius: 5px;
+            margin-top: 0px;
+            height: 60px;
+            width: 200px;
+            font-size: 25px;
+            font-weight: 500;
+            cursor: pointer;
+            transition: all 500ms ease;
+            color: var(--tg-theme-button-color);
+            background: var(--tg-theme-bg-color);
+            text-align: center;
+            margin-bottom: 0px;
+        }
+
+        #gift {
+            bottom: 50px;
+            position: relative;
+            left:100px;
+        }
+
+        #price1 {
+            margin-bottom: 0px;
+            box-sizing: content-box;
+        }
+
+        #button:hover {
+            background: var(--tg-theme-bg-color);
+        }
+
+        button:hover {
+            background: var(--tg-theme-secondary-bg-color);
+        }
+
+        
+
+    </style>
+</head>
+<body>
+    <div id="main">
+        <h1>Online Shop</h1>
+        <button id="button" class="euro"><b>€</b></button>
+        <button id="button" class="rubl"><b>₽</b></button>
+        <button id="button" class="hrivnya"><b>₴</b></button>
+        <button id="button" class="dollar"><b>$</b></button>
+        <!-- <img id="image" src="https://cdn-icons-png.flaticon.com/512/126/126201.png">
+        <img id="image" src="https://cdn-icons-png.flaticon.com/512/38/38559.png">
+        <img id="image" src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/46/Hryvnia_symbol.svg/1200px-Hryvnia_symbol.svg.png">
+        <img id="image" src="https://e7.pngegg.com/pngimages/998/957/png-clipart-dollar-dollar-thumbnail.png"> -->
+        <div id="text1">TELEGRAM PREMIUM 12 MONTHS*</div>
+        <img id="twelve" src="https://i.ibb.co/Q8WRgcB/12mes-removebg-preview-2.png">
+        <div id="price" class="price12">15$</div>
+        <div id="text2">TELEGRAM PREMIUM 6 MONTHS*</div>
+        <img id="six" src="https://i.ibb.co/KyKB7pW/6mes-removebg-preview.png">
+        <div id="price" class="price6">8$</div>
+        <div id="text3">TELEGRAM PREMIUM 3 MONTHS*</div>
+        <img  src="https://i.ibb.co/V3Vc8Kv/3mes-removebg-preview.png">
+        <div id="price1" class="price3">4.5$</div>
+        <div id="gift">Gift-code*</div>
+        <button id="buy">BUY</button>
+    </div>
+    <script src="https://telegram.org/js/telegram-web-app.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
